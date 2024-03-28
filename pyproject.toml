@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "NYTimes-Article-Utility"
+version = "0.1.0"
+description = "NYTimes Utility class that Chunks articles and flattens their output"
+authors = ["Abrar <amahi2001@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
